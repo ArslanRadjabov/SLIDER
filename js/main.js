@@ -41,6 +41,7 @@ function moveContainer(el) {
         contentList.style.marginLeft = 0 + 'px';
     } else {
         contentList.style.marginLeft = '-' + (el - 3) * 265 + 'px';
+
     }
 }
 
