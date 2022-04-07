@@ -34,14 +34,13 @@ let iel = 0;
 function moveContainer(el) {
     currentCard = el;
     if (el == '1') {
-        contentList.style.marginLeft = 2 * 265 + 'px';
+        contentList.style.marginLeft = 2 * 300 + 'px';
     } else if (el == '2') {
-        contentList.style.marginLeft = 1 * 265 + 'px';
+        contentList.style.marginLeft = 1 * 300 + 'px';
     } else if (el == '3') {
         contentList.style.marginLeft = 0 + 'px';
     } else {
-        contentList.style.marginLeft = '-' + (el - 3) * 265 + 'px';
-
+        contentList.style.marginLeft = '-' + (el - 3) * 300 + 'px';
     }
 }
 
